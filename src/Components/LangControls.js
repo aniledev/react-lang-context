@@ -5,8 +5,11 @@ import LanguageContext from "./LanguageContext";
 
 export default function LangControls(props) {
   return (
+    //renderProp acts like a combination of a callback prop and a child prop
+    // move the JSX we want to return into the return from the render
     <LanguageContext.Consumer>
-      {function renderProp() {
+      {(value) => {
+        console.log(value);
         return (
           <>
             <button>
