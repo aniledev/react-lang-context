@@ -18,7 +18,10 @@ class GreatGrandChild extends Component {
       <section className="GreatGrandChild">
         <h2>{copy.title}</h2>
         <p>{copy.body}</p>
-        <button onClick={() => this.context.setLang("klingon")}>
+        <button
+          onClick={() => this.context.setLang("klingon")}
+          disabled={this.context.lang === "klingon"}
+        >
           Klingon!
           <span role="img" aria-label="klingon">
             🖖
