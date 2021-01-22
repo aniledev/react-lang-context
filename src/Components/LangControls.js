@@ -39,6 +39,13 @@ export default function LangControls(props) {
                 🇰🇷
               </span>
             </button>
+            <button>
+              Klingon!
+              <span role="img" aria-label="klingon">
+                🖖
+              </span>
+              +{" "}
+            </button>
           </>
         );
       }}

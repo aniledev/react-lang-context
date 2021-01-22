@@ -16,6 +16,10 @@ const languageSpecificCopy = {
     body:
       "이 클라이언트 측 애플리케이션은 React를 사용하여 만들어졌습니다. 사이트 언어 변경을 보려면 위의 버튼 중 하나를 클릭하십시오. Google 번역의 모든 잘못된 번역을 비난하십시오. @aniledev의 사랑으로 만들어졌습니다..",
   },
+  klingon: {
+    title: "qaH jaj QaQ!!",
+    body: `amet consectetur adipisicing elit ba'choH dolor.expedita ba'choH. ea mollitia aperiam tempora Here neque adipisci, iure repudiandae aliquam, culpa nulla officia voluptatem quibusdam, impedit illo autem!`,
+  },
 };
 
 export default languageSpecificCopy;

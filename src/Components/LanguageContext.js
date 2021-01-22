@@ -5,6 +5,8 @@ import React from "react";
 
 const LanguageContext = React.createContext({
   lang: window.navigator.language,
+  // add empty updater function
+  setLang: () => {},
 });
 
 export default LanguageContext;
