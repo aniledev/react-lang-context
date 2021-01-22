@@ -13,26 +13,25 @@ export default function LangControls(props) {
         return (
           <>
             <button
-              onClick={() => props.onSetLang("en-GB")}
-              disabled={value.lang === "en-GB"}
+              onClick={() => props.onSetLang("es")}
+              disabled={value.lang === "es"}
             >
-              {" "}
-              British{" "}
+              Spanish{" "}
               <span role="img" aria-label="en-GB">
-                🇬🇧
+                🇪🇸
               </span>
-            </button>{" "}
+            </button>
             <button
-              onClick={() => props.onSetLang("en-GB")}
+              onClick={() => props.onSetLang("en-US")}
               disabled={value.lang === "en-US"}
             >
               American{" "}
               <span role="img" aria-label="en-US">
                 🇺🇸
               </span>
-            </button>{" "}
+            </button>
             <button
-              onClick={() => props.onSetLang("en-GB")}
+              onClick={() => props.onSetLang("ko")}
               disabled={value.lang === "ko"}
             >
               Korean{" "}

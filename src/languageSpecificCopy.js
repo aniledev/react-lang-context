@@ -1,20 +1,20 @@
 // the file containing an object of the text we can display for each language
 
 const languageSpecificCopy = {
-  "en-GB": {
-    title: "Good Morro Old Chap!",
+  es: {
+    title: "¡Bienvenidos!",
     body:
-      "Dolor sit amet consectetur adipisicing elit. Expedita sit. Ea mollitia aperiam tempora hic neque adipisci, iure repudiandae aliquam, culpa nulla officia voluptatem quibusdam, impedit illo autem.",
+      "Esta aplicación del lado del cliente está hecha usando React. Haga clic en uno de los botones de arriba para ver cómo el sitio cambia de idioma. Culpe a todas las traducciones defectuosas en Google Translate. Hecho con amor por @aniledev.",
   },
   "en-US": {
-    title: "Howdy Partner!",
+    title: "Welcome!",
     body:
-      "Dolor sit amet consectetur adipisicing elit. Expedita sit. Ea mollitia aperiam tempora hic neque adipisci, iure repudiandae aliquam, culpa nulla officia voluptatem quibusdam, impedit illo autem.",
+      "This client-side application is made using React. Click one of the buttons above to watch the site change languages. Blame all faulty translations on Google Translate. Made with love by @aniledev.",
   },
   ko: {
-    title: "폴더 목록",
+    title: "어서 오십시오!",
     body:
-      "당근은 리베이트를 강화. 를 가졌어요. 여기에도시에 열립니다이 부드러움을 얻으려면, 권리 그 중 일부를 거부하는 일부 사람들에게 즐거움의 의무의 잘못은, 이전의 목적에 장애물이 없다.",
+      "이 클라이언트 측 애플리케이션은 React를 사용하여 만들어졌습니다. 사이트 언어 변경을 보려면 위의 버튼 중 하나를 클릭하십시오. Google 번역의 모든 잘못된 번역을 비난하십시오. @aniledev의 사랑으로 만들어졌습니다..",
   },
 };
 
