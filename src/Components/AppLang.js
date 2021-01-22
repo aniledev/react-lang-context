@@ -17,15 +17,16 @@ export default class AppLang extends Component {
   render() {
     const contextValue = {
       lang: this.state.lang,
+      setLang: this.handleSetLang,
     };
 
     return (
-      // <LanguageContext.Provider value={contextValue}>
-      <div className="AppLang">
-        <LangControls onSetLang={this.handleSetLang} />
-        <Child />
-      </div>
-      // </LanguageContext.Provider>
+      <LanguageContext.Provider value={contextValue}>
+        <div className="AppLang">
+          <LangControls onSetLang={this.handleSetLang} />
+          <Child />
+        </div>
+      </LanguageContext.Provider>
     );
   }
 }
