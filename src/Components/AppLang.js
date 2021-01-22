@@ -10,6 +10,10 @@ export default class AppLang extends Component {
     lang: window.navigator.language,
   };
 
+  handleSetLang = (lang) => {
+    this.setState({ lang });
+  };
+
   render() {
     const contextValue = {
       lang: this.state.lang,
